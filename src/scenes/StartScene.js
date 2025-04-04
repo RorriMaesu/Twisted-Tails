@@ -7,7 +7,7 @@ export default class StartScene extends Phaser.Scene {
 
   preload() {
     // Load assets for the start scene
-    this.load.svg('logo', '/assets/logo.svg');
+    this.load.svg('logo', './assets/logo.svg');
   }
 
   create() {
