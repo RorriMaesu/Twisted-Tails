@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,8 @@
     "firebase": "^11.6.0",
     "phaser": "^3.88.2",
     "vite": "^6.2.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
