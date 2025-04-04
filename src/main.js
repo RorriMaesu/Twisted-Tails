@@ -1,7 +1,12 @@
+// Add debugging message to help identify loading issues
+console.log('Main.js is loading...');
+
 import Phaser from 'phaser';
 import StartScene from './scenes/StartScene';
 import GameScene from './scenes/GameScene';
 import GameOverScene from './scenes/GameOverScene';
+
+console.log('Modules imported successfully!');
 
 // Game configuration
 const config = {
@@ -19,7 +24,9 @@ const config = {
 };
 
 // Initialize the game
+console.log('Initializing Phaser game...');
 const game = new Phaser.Game(config);
+console.log('Phaser game initialized!');
 
 // DOM elements
 const startScreen = document.getElementById('start-screen');
