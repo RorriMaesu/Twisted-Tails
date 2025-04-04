@@ -39,8 +39,8 @@ export default class GameScene extends Phaser.Scene {
 
   preload() {
     // Load assets
-    this.load.svg('player', './assets/player.svg');
-    this.load.svg('trail', './assets/trail.svg');
+    this.load.svg('player', 'assets/player.svg');
+    this.load.svg('trail', 'assets/trail.svg');
   }
 
   create() {
