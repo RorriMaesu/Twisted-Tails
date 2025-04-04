@@ -1,7 +1,8 @@
 // Add debugging message to help identify loading issues
 console.log('Main.js is loading...');
 
-import Phaser from 'phaser';
+// Using the global Phaser object from the CDN
+// No need to import Phaser
 import StartScene from './scenes/StartScene';
 import GameScene from './scenes/GameScene';
 import GameOverScene from './scenes/GameOverScene';

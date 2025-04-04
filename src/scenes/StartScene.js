@@ -1,4 +1,5 @@
-import Phaser from 'phaser';
+// Using the global Phaser object from the CDN
+// No need to import Phaser
 
 export default class StartScene extends Phaser.Scene {
   constructor() {

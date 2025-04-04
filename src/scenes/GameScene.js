@@ -1,4 +1,5 @@
-import Phaser from 'phaser';
+// Using the global Phaser object from the CDN
+// No need to import Phaser
 import { database } from '../firebase';
 import { ref, set, update, remove, onValue, onDisconnect } from 'firebase/database';
 
